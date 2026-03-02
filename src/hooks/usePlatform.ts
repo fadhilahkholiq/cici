@@ -2,7 +2,7 @@
 
 import { create } from "zustand";
 
-export type Platform = "dramabox" | "reelshort" | "netshort" | "melolo" | "flickreels" | "freereels";
+export type Platform = "dramabox" | "reelshort" | "shortmax" | "netshort" | "melolo" | "flickreels" | "freereels";
 
 export interface PlatformInfo {
   id: Platform;
@@ -23,6 +23,12 @@ export const PLATFORMS: PlatformInfo[] = [
     name: "ReelShort",
     logo: "/reelshort.webp",
     apiBase: "/api/reelshort",
+  },
+  {
+    id: "shortmax",
+    name: "ShortMax",
+    logo: "/shortmax.webp",
+    apiBase: "/api/shortmax",
   },
   {
     id: "netshort",
@@ -76,6 +82,7 @@ export function usePlatform() {
     getPlatformInfo,
     isDramaBox: currentPlatform === "dramabox",
     isReelShort: currentPlatform === "reelshort",
+    isShortMax: currentPlatform === "shortmax",
     isNetShort: currentPlatform === "netshort",
     isMelolo: currentPlatform === "melolo",
     isFlickReels: currentPlatform === "flickreels",
