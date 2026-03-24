@@ -8,7 +8,7 @@ import { Toaster as Sonner } from "@/components/ui/sonner";
 import { Suspense } from "react";
 
 export const metadata: Metadata = {
-  title: "Situs Nonton Drama Pendek Cici-Cici",
+  title: "Situs Nonton Drama Pendek CICI",
   description: "Situs hobi untuk nonton drama pendek keluaran China per episode secara gratis dan tanpa iklan. Tersedia juga drama versi dub atau sulih suara.",
 };
 
