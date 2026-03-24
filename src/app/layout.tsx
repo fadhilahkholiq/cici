@@ -8,8 +8,8 @@ import { Toaster as Sonner } from "@/components/ui/sonner";
 import { Suspense } from "react";
 
 export const metadata: Metadata = {
-  title: "SekaiDrama - Streaming Drama Pendek",
-  description: "Nonton drama pendek gratis dan tanpa iklan di SekaiDrama.",
+  title: "Situs Nonton Drama Pendek Cici-Cici",
+  description: "Situs hobi untuk nonton drama pendek keluaran China per episode secara gratis dan tanpa iklan. Tersedia juga drama versi dub atau sulih suara.",
 };
 
 export default function RootLayout({
