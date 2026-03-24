@@ -34,7 +34,7 @@ export default function MeloloDetailPage() {
   const firstEpisodeId = drama.video_list?.[0]?.vid;
 
   return (
-    <main className="min-h-screen pt-20">
+    <main className="min-h-screen pt-0">
       {/* Hero Section */}
       <div className="relative">
         {/* Background Blur */}
