@@ -220,8 +220,8 @@ export default function DramaBoxWatchPage() {
       <main className="fixed inset-0 bg-black flex flex-col items-center justify-center space-y-4">
         <Loader2 className="w-12 h-12 animate-spin text-primary" />
         <div className="text-center space-y-2">
-            <h3 className="text-white font-medium text-lg">Memuat video...</h3>
-            <p className="text-white/60 text-sm">Mohon tunggu sebentar, data sedang diambil.</p>
+            <h3 className="text-white font-medium text-lg">CICI</h3>
+            <p className="text-white/60 text-sm">Tunggu sebentar, data sedang diambil.</p>
         </div>
       </main>
     );
