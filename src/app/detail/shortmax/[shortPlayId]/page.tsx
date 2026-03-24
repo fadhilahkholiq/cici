@@ -32,7 +32,7 @@ export default function ShortMaxDetailPage() {
   }
 
   return (
-    <main className="min-h-screen pt-20">
+    <main className="min-h-screen pt-0">
       {/* Hero Section with Cover */}
       <div className="relative">
         {/* Background Blur */}
