@@ -129,7 +129,7 @@ export function Header() {
                     type="text"
                     value={searchQuery}
                     onChange={(e) => setSearchQuery(e.target.value)}
-                    placeholder={`Cari drama di ${platformInfo.name}...`}
+                    placeholder={`Cari drama di ${platformInfo.name}`}
                     className="search-input pl-12"
                     autoFocus
                   />
@@ -144,7 +144,7 @@ export function Header() {
 
               {/* Platform indicator */}
               <div className="mb-4 flex items-center gap-2 text-sm text-muted-foreground">
-                <span>Mencari di:</span>
+                <span>Mencari di</span>
                 <span className="px-2 py-1 rounded-full bg-primary/20 text-primary font-medium">
                   {platformInfo.name}
                 </span>
@@ -465,7 +465,7 @@ export function Header() {
                 {!normalizedQuery && (
                   <div className="text-center py-12">
                     <Search className="w-12 h-12 text-muted-foreground/50 mx-auto mb-4" />
-                    <p className="text-muted-foreground">Ketik untuk mencari drama di {platformInfo.name}</p>
+                    <p className="text-muted-foreground">Ketik untuk mencari drama di {platformInfo.name}!</p>
                   </div>
                 )}
               </div>
